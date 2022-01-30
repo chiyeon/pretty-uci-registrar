@@ -1,6 +1,6 @@
 # Pretty UCI Registrar
 
-**Project is Under Development!**
+![project status](https://img.shields.io/badge/project%20status-in%20development-important)
 
 # Features
 
