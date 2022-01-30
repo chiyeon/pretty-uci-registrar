@@ -1,12 +1,14 @@
-# pretty uci registrar !
-a visual revamp of the uci registrar
+# Pretty UCI Registrar
 
-**Project is Under Development !**
+**Project is Under Development!**
 
 # Features
+
 ### Visual Overhaul
+
 - Schedule of Classes search & results page
 - Class Prerequisite page
 
 # Preview
-<img src="/previews/wip.png" width="800px">
+
+![Preview of WebReg page](/previews/wip.png)
