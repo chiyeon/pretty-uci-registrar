@@ -26,6 +26,14 @@
             "styles/global.css",
             "styles/prereqs.css"
          ]
+      },
+      {
+         "matches": [
+            "https://webreg2.reg.uci.edu/cgi-bin/"
+         ],
+         "css": [
+            "styles/global.css"
+         ]
       }
    ]
 }
