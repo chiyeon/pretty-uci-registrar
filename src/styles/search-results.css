@@ -10,7 +10,7 @@ table {
 
    border: none !important;
 }
-/* remove excess backgrounds */
+/* remove excess backgrounds, causes pixel edges */
 .course-list tr {
    background-color: transparent;
 }
@@ -22,11 +22,10 @@ table {
 }
 .dept-title td {
    border-radius: 10px 10px 0 0;
+   background-color: var(--background-secondary) !important;
 }
 .dept-comment td, .college-comment td {
    border-radius: 0 0 10px 10px;
-}
-.college-comment td, .dept-title td, .dept-comment td{
    background-color: var(--background-secondary) !important;
 }
 
@@ -49,11 +48,11 @@ tr[bgcolor="#FFFFCC"][valign="top"] > td:first-child {
 tr[bgcolor="#FFFFCC"][valign="top"] > td:last-child {
    border-radius: 0 10px 10px 0;
 }
-/* when the next tr is a course comment, color it */
+/* when the next tr is a course comment, color the comment */
 tr[bgcolor="#FFFFCC"][valign="top"] + tr[bgcolor="#FFFFCC"] td.Pct100 td {
    background-color: var(--background-secondary) !important;
 }
-
+   
 /* table class headers (code, type, sec, units...) */
 tr[bgcolor="#E7E7E7"] th {
    color: var(--text-light) !important;
