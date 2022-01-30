@@ -6,8 +6,6 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-
-   font-size: 13px;
 }
 
 /* navigation bar */
@@ -48,16 +46,17 @@ body > form {
 /* main table */
 form > table td {
    padding: 2px;
+   font-size: var(--font-size-main) !important;
 }
 
 /* entry labels on far left column */
 form td:nth-child(2) {
    background-color: var(--background-primary);
-   text-align: center;
+   text-align: right;
 }
 form td:nth-child(2) font, form td:nth-child(2) a {
-   font-size: 13px !important;
    color: var(--text-light) !important;
+   font-size: var(--font-size-main) !important;
 }
 
 /* example entries */
@@ -71,17 +70,24 @@ form td:nth-child(3) font, form td:nth-child(3) a {
    padding: 6px 8px 6px 8px;
    border-radius: 300px;
 
-   font-size: 13px;
+   font-size: var(--font-size-main) !important;
 
    /* styling the reset button */
    text-decoration: none;
 
    cursor: pointer;
+
+   /* really only for .banner-width buttons */
+   transition: .3s opacity;
 }
 /* make da first button pretty ! */
 .banner-width > input:first-child {
    background-color: var(--gold) !important;
    color: var(--text-dark) !important;
+}
+/* hover for buttons */
+.banner-width > input:hover, .banner-width > a:hover {
+   opacity: .7;
 }
 
 select, table input, .banner-width > a, .banner-width > input {
