@@ -6,7 +6,7 @@
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
 
    "content_scripts": [{
-      "css": ["styles/global.css", "styles/search-form.css"],
+      "css": ["styles/global.css", "styles/search-form.css", "styles/search-results.css"],
       "js": ["script.js"],
       "matches": ["https://www.reg.uci.edu/perl/WebSoc"]
    }]
