@@ -18,3 +18,53 @@
 * {
    font-family: 'Poppins', sans-serif !important;
 }
+
+body {
+   background-color: var(--background-primary) !important;
+   color: var(--text-light) !important;
+   margin: 0 !important;
+
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+/* change all links to nice blue */
+a {
+   color: var(--blue) !important;
+}
+
+/* navigation bar */
+#reg-nav-bar {
+   margin-top: 10px !important;
+
+   border-radius: 300px;
+
+   background-color: var(--gold) !important;
+}
+#reg-nav-bar a {
+   color: var(--text-dark) !important;
+   background-color: transparent !important; /* get rid of hover background */
+}
+#reg-nav-bar a:hover {
+   color: var(--blue) !important;
+}
+
+/* warning at top of page, date & contact links */
+body > font, #date-now, #contact-date a {
+   color: var(--text-light) !important;
+}
+
+/* bottom bit of info & footer */
+body > p a, #contact-footer a {
+   color: var(--blue) !important;
+}
+/* footer */
+#contact-footer {
+   background-color: var(--background-secondary) !important;
+}
+
+/* asterisks */
+font[color="red"] {
+   color: var(--status-red);
+}

@@ -1,0 +1,23 @@
+table input, table select {
+   border: none !important;
+   padding: 6px 8px 6px 8px;
+   border-radius: 300px;
+
+   color: var(--text-light);
+   font-size: var(--font-size-main) !important;
+
+   background-color: var(--background-secondary);
+}
+
+.course, .course a {
+   color: var(--blue) !important;
+}
+
+.title {
+   color: var(--text-light) !important;
+   font-weight: bold;
+}
+
+.prereq {
+   color: var(--text-light) !important;
+}

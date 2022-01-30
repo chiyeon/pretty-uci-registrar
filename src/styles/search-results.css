@@ -52,7 +52,7 @@ tr[bgcolor="#FFFFCC"][valign="top"] > td:last-child {
 tr[bgcolor="#FFFFCC"][valign="top"] + tr[bgcolor="#FFFFCC"] td.Pct100 td {
    background-color: var(--background-secondary) !important;
 }
-   
+
 /* table class headers (code, type, sec, units...) */
 tr[bgcolor="#E7E7E7"] th {
    color: var(--text-light) !important;
@@ -69,11 +69,6 @@ tr[bgcolor="#E7E7E7"] th:last-child {
 .white-bar-thick td, .blue-bar, .blue-bar td, .white-bar td {
    background-color: transparent !important;
    height: 10px !important;
-}
-
-/* change all links to nice blue */
-a {
-   color: var(--blue) !important;
 }
 
 /* special class comment */ 
