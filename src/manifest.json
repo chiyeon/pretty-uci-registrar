@@ -2,7 +2,7 @@
    "manifest_version": 2,
 
    "name": "Pretty UCI Registrar",
-   "version": "0.1.0",
+   "version": "0.0.2",
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
 
    "content_scripts": [{
