@@ -1,19 +1,31 @@
 {
-   "manifest_version": 2,
-
+   "manifest_version": 3,
    "name": "Pretty UCI Registrar",
    "version": "0.0.2",
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
-
    "content_scripts": [
       {
-         "matches": [ "https://www.reg.uci.edu/perl/WebSoc", "https://www.reg.uci.edu/perl/*" ],
-         "css": [ "styles/global.css", "styles/search-form.css", "styles/search-results.css" ],
-         "js": [ "script.js" ]
+         "matches": [
+            "https://www.reg.uci.edu/perl/WebSoc",
+            "https://www.reg.uci.edu/perl/*"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/search-form.css",
+            "styles/search-results.css"
+         ],
+         "js": [
+            "script.js"
+         ]
       },
       {
-         "matches": [ "https://www.reg.uci.edu/cob/*" ],
-         "css": [ "styles/global.css", "styles/prereqs.css" ]
+         "matches": [
+            "https://www.reg.uci.edu/cob/*"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/prereqs.css"
+         ]
       }
-]
+   ]
 }

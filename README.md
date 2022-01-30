@@ -1,4 +1,3 @@
-# pretty uci registrar !
-a visual revamp of the uci registrar
+# Pretty UCI Registrar
 
-### Project is Under Development !
+A dark-mode visual revamp of the UCI registrar.
