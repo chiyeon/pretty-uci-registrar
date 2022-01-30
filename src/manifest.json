@@ -29,7 +29,7 @@
       },
       {
          "matches": [
-            "https://webreg2.reg.uci.edu/cgi-bin/"
+            "https://webreg2.reg.uci.edu/cgi-bin/*"
          ],
          "css": [
             "styles/global.css"
