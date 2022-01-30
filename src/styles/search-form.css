@@ -54,10 +54,6 @@ form td:nth-child(3) font, form td:nth-child(3) a {
    background-color: var(--gold) !important;
    color: var(--text-dark) !important;
 }
-/* hover for buttons */
-.banner-width > input:hover, .banner-width > a:hover {
-   opacity: .7;
-}
 
 select, table input, .banner-width > a, .banner-width > input {
    background-color: var(--background-secondary) !important;

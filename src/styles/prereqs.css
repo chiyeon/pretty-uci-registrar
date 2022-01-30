@@ -20,6 +20,7 @@ table input, table select {
 
 .prereq {
    color: var(--text-light) !important;
+   word-wrap: normal;
 }
 
 .error_message {
