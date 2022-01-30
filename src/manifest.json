@@ -1,0 +1,13 @@
+{
+   "manifest_version": 2,
+
+   "name": "Pretty UCI Registrar",
+   "version": "0.1.0",
+   "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
+
+   "content_scripts": [{
+      "css": ["styles/global.css", "styles/search-form.css"],
+      "js": ["script.js"],
+      "matches": ["https://www.reg.uci.edu/perl/WebSoc"]
+   }]
+}
