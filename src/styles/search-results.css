@@ -75,6 +75,7 @@ tr[bgcolor="#E7E7E7"] th:last-child {
 /* special class comment */ 
 .num-range-comment td {
    border-radius: 10px;
+   background-color: var(--background-secondary) !important;
 }
 
 /* change green OPEN class status color */

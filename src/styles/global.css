@@ -46,9 +46,6 @@ a {
    color: var(--text-dark) !important;
    background-color: transparent !important; /* get rid of hover background */
 }
-#reg-nav-bar a:hover {
-   color: var(--blue) !important;
-}
 
 /* warning at top of page, date & contact links */
 body > font, #date-now, #contact-date a {
