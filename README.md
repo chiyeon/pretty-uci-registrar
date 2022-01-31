@@ -1,6 +1,6 @@
 # Pretty UCI Registrar
 
-![project status](https://img.shields.io/badge/project%20status-in%20development-important)
+![Project Status](https://img.shields.io/badge/project%20status-in%20development-important)
 
 # Features
 
