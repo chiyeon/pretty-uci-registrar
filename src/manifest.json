@@ -29,10 +29,12 @@
       },
       {
          "matches": [
+            "https://webreg1.reg.uci.edu/cgi-bin/*",
             "https://webreg2.reg.uci.edu/cgi-bin/*"
          ],
          "css": [
-            "styles/global.css"
+            "styles/global.css",
+            "styles/webreg.css"
          ]
       }
    ]
