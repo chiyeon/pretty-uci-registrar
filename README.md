@@ -8,6 +8,7 @@
 
 - Schedule of Classes search & results page
 - Class Prerequisite page
+- Web Registration page
 
 # Preview
 
