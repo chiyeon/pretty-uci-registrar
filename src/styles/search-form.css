@@ -5,7 +5,7 @@ h1 {
 }
 
 /* main form */
-body > form {
+body>form {
    /* center the buttons rows & entry table */
    display: flex;
    flex-direction: column;
@@ -13,7 +13,7 @@ body > form {
 }
 
 /* main table */
-form > table td {
+form>table td {
    padding: 2px;
    font-size: var(--font-size-main) !important;
 }
@@ -23,18 +23,24 @@ form td:nth-child(2) {
    background-color: var(--background-primary);
    text-align: right;
 }
-form td:nth-child(2) font, form td:nth-child(2) a {
+
+form td:nth-child(2) font,
+form td:nth-child(2) a {
    color: var(--text-light) !important;
    font-size: var(--font-size-main) !important;
 }
 
 /* example entries */
-form td:nth-child(3) font, form td:nth-child(3) a {
+form td:nth-child(3) font,
+form td:nth-child(3) a {
    color: var(--blue) !important;
 }
 
 /* make buttons a lil nicer ! */
-.banner-width > input, .banner-width > a, table select, table input {
+.banner-width>input,
+.banner-width>a,
+table select,
+table input {
    border: none !important;
    padding: 6px 8px 6px 8px;
    border-radius: 300px;
@@ -49,13 +55,17 @@ form td:nth-child(3) font, form td:nth-child(3) a {
    /* really only for .banner-width buttons */
    transition: .3s opacity;
 }
+
 /* make da first button pretty ! */
-.banner-width > input:first-child {
+.banner-width>input:first-child {
    background-color: var(--gold) !important;
    color: var(--text-dark) !important;
 }
 
-select, table input, .banner-width > a, .banner-width > input {
+select,
+table input,
+.banner-width>a,
+.banner-width>input {
    background-color: var(--background-secondary) !important;
    color: var(--text-light) !important;
 }

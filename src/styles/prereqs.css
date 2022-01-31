@@ -1,4 +1,5 @@
-table input, table select {
+table input,
+table select {
    border: none !important;
    padding: 6px 8px 6px 8px;
    border-radius: 300px;
@@ -9,7 +10,8 @@ table input, table select {
    background-color: var(--background-secondary);
 }
 
-.course, .course a {
+.course,
+.course a {
    color: var(--blue) !important;
 }
 
@@ -31,24 +33,30 @@ table input, table select {
 table[width="800"] {
    border-collapse: collapse;
 }
+
 /* round & color top headers */
 table[width="800"] tr:first-child th {
    background-color: var(--background-tertiary);
 }
+
 table[width="800"] tr:first-child th:first-child {
    border-radius: 10px 0 0 0;
 }
+
 table[width="800"] tr:first-child th:last-child {
    border-radius: 0 10px 0 0;
 }
+
 /* color every other row */
 table[width="800"] tr:nth-child(odd) {
    background-color: var(--background-secondary);
 }
+
 /* round last row just in case it shows */
 table[width="800"] tr:last-child td:first-child {
    border-radius: 0 0 0 10px;
 }
+
 table[width="800"] tr:last-child td:last-child {
    border-radius: 0 0 10px 0;
 }
