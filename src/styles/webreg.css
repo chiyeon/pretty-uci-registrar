@@ -18,6 +18,11 @@ table {
    border-collapse: collapse;
 }
 
+/* tbody of add/drop menus */
+table tbody {
+   border-color: var(--text-light) !important;
+}
+
 .WebRegTitle, .WebRegSubtitle, h2 {
    color: var(--blue) !important;
 }
