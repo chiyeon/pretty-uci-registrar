@@ -1,3 +1,5 @@
+/* Class/waitlist list and registration page */
+
 center input {
    border: none !important;
    padding: 6px 10px 6px 10px !important;
@@ -23,7 +25,8 @@ table tbody {
    border-color: var(--text-light) !important;
 }
 
-.WebRegTitle, .WebRegSubtitle, h2 {
+.WebRegTitle,
+.WebRegSubtitle, h2 {
    color: var(--blue) !important;
 }
 .WebRegTitle font {
