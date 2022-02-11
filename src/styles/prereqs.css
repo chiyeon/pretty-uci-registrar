@@ -1,4 +1,7 @@
-table input, table select {
+table[cellpadding="2"] input,
+table[width="800"] input,
+table[cellpadding="2"] select,
+table[width="800"] select {
    border: none !important;
    padding: 6px 8px 6px 8px;
    border-radius: 300px;
