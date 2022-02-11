@@ -36,6 +36,15 @@
             "styles/global.css",
             "styles/webreg.css"
          ]
+      },
+      {
+         "matches": [
+            "https://www.reg.uci.edu/registrar/soc/webreg.html"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/webreg-home.css"
+         ]
       }
    ]
 }

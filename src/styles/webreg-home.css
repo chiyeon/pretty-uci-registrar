@@ -1,0 +1,65 @@
+/* home page with the access webreg button */
+
+/* entire page */
+table[width="45%"] {
+   background-color: var(--background-primary) !important;
+}
+
+/* header */
+h3 > span {
+   background-color: var(--background-primary) !important;
+}
+
+/* border surrounding little top notifications */
+.tborder,
+.tborder2,
+.bborder2,
+.lborder {
+   border-color: var(--background-primary) !important;
+}
+
+/* little top notifications */
+#audience_nav_background2,
+#audience_nav_background4 {
+   width: 50% !important;
+   border-radius: 10px;
+}
+#audience_nav-flex2 td,
+#audience_nav-flex4 td {
+   background-color: none !important;
+}
+
+/* left nav bar */
+td[width="206"] {
+   background-color: var(--background-secondary) !important;
+}
+/* nav bar buttons */
+.menu {
+   background-color: var(--blue) !important;
+   border: none !important;
+   padding: 3px !important;
+   border-radius: 3px;
+}
+.menu a {
+   color: var(--text-light) !important;
+}
+
+/* access webreg button */
+.box {
+   background-color: var(--gold) !important;
+   border-radius: 10px;
+}
+.boxtop,
+.boxtop div,
+.boxbottom,
+.boxbottom div {
+   background: none !important;
+}
+
+/* footer image */
+#ftr-row {
+   background-color: var(--backround-secondary) !important;
+}
+#ftr-row img {
+   filter: invert(1);
+}
