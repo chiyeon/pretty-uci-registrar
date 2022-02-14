@@ -23,10 +23,11 @@ h3 > span {
 #audience_nav_background4 {
    width: 50% !important;
    border-radius: 10px;
+   transform: translateX(50%);
 }
 #audience_nav-flex2 td,
 #audience_nav-flex4 td {
-   background-color: none !important;
+   background: none !important;
 }
 
 /* left nav bar */
@@ -62,4 +63,17 @@ td[width="206"] {
 }
 #ftr-row img {
    filter: invert(1);
+}
+
+/* COVID19 FAQ Page */
+
+/* arrows next to bullet points */
+.open img {
+   
+}
+
+/* drop downs */
+ul[style="list-style-position: inside; background-color: #ececec; width: 800px; padding: 5px; "] {
+   background-color: var(--background-secondary) !important;
+   border-radius: 10px;
 }

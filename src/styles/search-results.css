@@ -91,6 +91,11 @@ font[color="green"] {
    color: var(--status-green);
 }
 
+/* change error to red */
+div[style="color: red; font-weight: bold;"] {
+   color: var(--status-red) !important;
+}
+
 /* course comments */
 td.Pct100 {
    padding: 0 0 10px 0 !important;

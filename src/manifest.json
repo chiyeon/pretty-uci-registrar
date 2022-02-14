@@ -39,7 +39,9 @@
       },
       {
          "matches": [
-            "https://www.reg.uci.edu/registrar/soc/webreg.html"
+            "https://www.reg.uci.edu/registrar/soc/webreg.html",
+            "https://www.reg.uci.edu/addl/accellion_notice.html",
+            "https://www.reg.uci.edu/addl/faq_covid.html"
          ],
          "css": [
             "styles/global.css",
