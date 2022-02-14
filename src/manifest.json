@@ -3,6 +3,7 @@
    "name": "Pretty UCI Registrar",
    "version": "0.0.2",
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
+   "author": "Benjamin Wong",
    "content_scripts": [
       {
          "matches": [
