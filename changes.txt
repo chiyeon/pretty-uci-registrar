@@ -1,0 +1,5 @@
+- fixed error where red text was the improper color in the search form
+- added support web registration pages
+  - access page
+  - accellion data breach page
+  - covid 19 faq page
