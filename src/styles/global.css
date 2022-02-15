@@ -59,9 +59,9 @@ a:hover {
 #audience_nav_background td {
    color: var(--text-dark) !important;
    background-color: transparent !important;
+   font-size: 12px;
 }
-#reg-nav-bar td,
-#audience_nav_background td {
+#reg-nav-bar td {
    padding: 3px !important;
 }
 
