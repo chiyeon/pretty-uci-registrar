@@ -1,2 +1,4 @@
 - fixed incorrectly colored dropdown options
 - fixed text input boxes showing incorrect color on firefox
+- fixed dropdown arrows showing white backgrounds in the covid-19 faq
+- added rounded corners to the duo authentication window
