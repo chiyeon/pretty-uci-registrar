@@ -3,3 +3,6 @@
   - access page
   - accellion data breach page
   - covid 19 faq page
+- added support for UCI oath pages
+  - ucinet login
+  - partial support for duo page, which uses an iframe.
