@@ -37,6 +37,12 @@ a {
    color: var(--blue) !important;
 }
 
+/* make them underline on hover if not already */
+a:hover {
+   text-decoration: underline;
+   cursor: pointer;
+}
+
 /* navigation bar */
 #reg-nav-bar,
 #audience_nav_background {

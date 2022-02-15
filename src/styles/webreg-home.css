@@ -25,8 +25,12 @@ h3 > span {
    border-radius: 10px;
    transform: translateX(50%);
 }
+
+/* remove hover & fix any errant backgrounds */
 #audience_nav-flex2 td,
-#audience_nav-flex4 td {
+#audience_nav-flex4 td,
+#audience_nav-flex2 a,
+#audience_nav-flex4 a {
    background: none !important;
 }
 
