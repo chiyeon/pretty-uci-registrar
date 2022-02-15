@@ -69,7 +69,13 @@ td[width="206"] {
 
 /* arrows next to bullet points */
 .open img {
-   
+   content:url("https://i.imgur.com/Xyc0Xvn.png");
+   width: 15px;
+   padding: 4px;
+}
+/* rotate when opened */
+img[src="https://www.reg.uci.edu/images/faq/opened.gif"] {
+   transform: rotate(90deg);
 }
 
 /* drop downs */
