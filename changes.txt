@@ -10,3 +10,4 @@
 - added rounded corners to the duo authentication window
 - added underline on hover for links
 - added cursor change when hovering over buttons for prereqs & class search pages
+- added custom logger (thank you @waymondrang)
