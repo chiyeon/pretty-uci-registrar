@@ -69,3 +69,22 @@ table input,
    background-color: var(--background-secondary) !important;
    color: var(--text-light) !important;
 }
+
+/* correct coloring for drop down options */
+/* red coloring */
+option[style="color: brown;"] {
+   color: var(--status-red) !important;
+}
+/* grayed out */
+option[style="color: #555;"],
+option[style="color: #555"],
+option[style="color: gray"] {
+   color: var(--text-secondary) !important;
+}
+/* diff colored */
+option[style="color: purple"] {
+   color: var(--color-purple) !important;
+}
+option[style="color: #744a00"] {
+   color: var(--color-orange) !important;
+}
