@@ -41,16 +41,16 @@ a {
 #reg-nav-bar,
 #audience_nav_background {
    margin-top: 10px !important;
-
    border-radius: 300px;
-
    background-color: var(--gold) !important;
 }
 #reg-nav-bar a,
+#reg-nav-bar td,
 #audience_nav_background a,
 #audience_nav_background td {
    color: var(--text-dark) !important;
    background-color: transparent !important;
+   padding: 3px !important;
    /* get rid of hover background */
 }
 
