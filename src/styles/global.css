@@ -43,39 +43,24 @@ a {
 
    background-color: var(--gold) !important;
 }
-<<<<<<< HEAD
-
-#reg-nav-bar a {
-=======
 #reg-nav-bar a,
 #audience_nav_background a,
 #audience_nav_background td {
->>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    color: var(--text-dark) !important;
    background-color: transparent !important;
    /* get rid of hover background */
 }
 
 /* warning at top of page, date & contact links */
-<<<<<<< HEAD
-body>font,
-#date-now,
-#contact-date a {
-=======
 body > font,
 #date-now,
 #contact-date a,
 #maps a {
->>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    color: var(--text-light) !important;
 }
 
 /* bottom bit of info & footer */
-<<<<<<< HEAD
-body>p a,
-=======
 body > p a,
->>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
 #contact-footer a {
    color: var(--blue) !important;
 }

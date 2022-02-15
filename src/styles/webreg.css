@@ -21,11 +21,6 @@ table {
    border-collapse: collapse;
 }
 
-<<<<<<< HEAD
-.WebRegTitle,
-.WebRegSubtitle,
-h2 {
-=======
 /* top image header & buttons */
 #tbl-container-flex {
    background-color: var(--background-primary) !important;
@@ -46,7 +41,6 @@ table tbody {
 h2,
 .WebRegInfoMsg,
 .DivLogoutMsg h2  {
->>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    color: var(--blue) !important;
 }
 
@@ -127,12 +121,8 @@ font[color="#083194"] {
 /* red warning text */
 font[color="#CD2626"] {
    color: var(--status-red);
-<<<<<<< HEAD
-}
-=======
 }
 
 #contact-footer {
    margin-top: 20px !important;
 }
->>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
