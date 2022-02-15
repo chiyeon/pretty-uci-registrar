@@ -6,3 +6,4 @@
 - added support for UCI oath pages
   - ucinet login
   - partial support for duo page, which uses an iframe.
+- adjusted colors to be overall more cohesive and easy on the eyes
