@@ -1,0 +1,107 @@
+/* home page with the access webreg button */
+
+/* entire page */
+table[width="45%"] {
+   background-color: var(--background-primary) !important;
+}
+
+/* header */
+h3 > span {
+   background-color: var(--background-primary) !important;
+}
+
+/* border surrounding little top notifications */
+.tborder,
+.tborder2,
+.bborder2,
+.lborder {
+   border-color: var(--background-primary) !important;
+}
+
+/* little top notifications */
+#audience_nav_background2,
+#audience_nav_background4 {
+   width: 50% !important;
+   border-radius: 10px;
+   transform: translateX(50%);
+}
+#audience_nav-flex2 td,
+#audience_nav-flex4 td {
+   background: none !important;
+}
+
+/* left nav bar */
+td[width="206"] {
+   background-color: var(--background-secondary) !important;
+}
+/* nav bar buttons */
+.menu {
+   background-color: var(--blue) !important;
+   border: none !important;
+   padding: 3px !important;
+   border-radius: 3px;
+}
+.menu a {
+   color: var(--text-light) !important;
+}
+
+/* nav sub menus */
+.menu ul,
+.submenu ul {
+   background-color: var(--background-secondary) !important;
+   border: none !important;
+   border-radius: 10px;
+   margin-left: 30px !important;
+}
+/* each element of the submenu */
+.submenu,
+.submenu li, 
+.submenu a,
+.menu ul li,
+.menu ul li a:hover {
+   background: none !important;
+}
+
+/* access webreg button */
+.box {
+   background-color: var(--gold) !important;
+   border-radius: 10px;
+}
+.boxtop,
+.boxtop div,
+.boxbottom,
+.boxbottom div {
+   background: none !important;
+}
+
+/* footer image */
+#ftr-row {
+   background-color: var(--backround-secondary) !important;
+}
+#ftr-row img {
+   filter: invert(1);
+}
+
+/* COVID19 FAQ Page */
+
+/* arrows next to bullet points */
+.open img {
+   content:url("https://i.imgur.com/Xyc0Xvn.png");
+   width: 15px;
+   padding: 4px;
+}
+/* rotate when opened */
+img[src="https://www.reg.uci.edu/images/faq/opened.gif"] {
+   transform: rotate(90deg);
+}
+
+/* drop downs */
+ul[style="list-style-position: inside; background-color: #ececec; width: 800px; padding: 5px; "] {
+   background-color: var(--background-secondary) !important;
+   border-radius: 10px;
+}
+
+/* titles */
+h2 div, h3 span {
+   color: var(--blue) !important;
+}

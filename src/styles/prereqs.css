@@ -1,5 +1,14 @@
+<<<<<<< HEAD
 table input,
 table select {
+=======
+/* class prerequisites page */
+
+table[cellpadding="2"] input,
+table[width="800"] input,
+table[cellpadding="2"] select,
+table[width="800"] select {
+>>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    border: none !important;
    padding: 6px 8px 6px 8px;
    border-radius: 300px;

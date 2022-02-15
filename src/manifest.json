@@ -3,6 +3,7 @@
    "name": "Pretty UCI Registrar",
    "version": "0.0.2",
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
+   "author": "Benjamin Wong",
    "content_scripts": [
       {
          "matches": [
@@ -35,6 +36,27 @@
          "css": [
             "styles/global.css",
             "styles/webreg.css"
+         ]
+      },
+      {
+         "matches": [
+            "https://www.reg.uci.edu/registrar/soc/webreg.html",
+            "https://www.reg.uci.edu/addl/accellion_notice.html",
+            "https://www.reg.uci.edu/addl/faq_covid.html"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/webreg-home.css"
+         ]
+      },
+      {
+         "matches": [
+            "https://login.uci.edu/ucinetid/*",
+            "https://login.uci.edu/duo/*"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/secure-login.css"
          ]
       }
    ]

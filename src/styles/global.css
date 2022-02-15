@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* global styles applied to each page */
 
 :root {
    --background-primary: #333333;
-   --background-secondary: #4f4f4f;
-   --background-tertiary: #6e6e6e;
+   --background-secondary: #444444;
+   --background-tertiary: #535353;
    --text-dark: #1f1f1f;
-   --text-light: #f2f2f2;
+   --text-light: #dfdfdf;
    --status-green: #94BD96;
    --status-red: #C84848;
    --status-blue: #6B8BFF;
@@ -16,7 +16,7 @@
 }
 
 * {
-   font-family: 'Poppins', sans-serif !important;
+   font-family: sans-serif !important;
 }
 
 body {
@@ -35,29 +35,47 @@ a {
 }
 
 /* navigation bar */
-#reg-nav-bar {
+#reg-nav-bar,
+#audience_nav_background {
    margin-top: 10px !important;
 
    border-radius: 300px;
 
    background-color: var(--gold) !important;
 }
+<<<<<<< HEAD
 
 #reg-nav-bar a {
+=======
+#reg-nav-bar a,
+#audience_nav_background a,
+#audience_nav_background td {
+>>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    color: var(--text-dark) !important;
    background-color: transparent !important;
    /* get rid of hover background */
 }
 
 /* warning at top of page, date & contact links */
+<<<<<<< HEAD
 body>font,
 #date-now,
 #contact-date a {
+=======
+body > font,
+#date-now,
+#contact-date a,
+#maps a {
+>>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
    color: var(--text-light) !important;
 }
 
 /* bottom bit of info & footer */
+<<<<<<< HEAD
 body>p a,
+=======
+body > p a,
+>>>>>>> b11a5a05a3f55aed4204c5e7acac1bad5483d197
 #contact-footer a {
    color: var(--blue) !important;
 }
@@ -65,6 +83,8 @@ body>p a,
 /* footer */
 #contact-footer {
    background-color: var(--background-secondary) !important;
+   border-color: var(--blue) !important;
+   margin: 0 !important;
 }
 
 /* asterisks */
