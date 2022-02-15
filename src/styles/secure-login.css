@@ -20,6 +20,16 @@ body,
    background-color: var(--background-secondary) !important;
 }
 
+/* round corners of duo screen */
+.duo-card>.webauth {
+   background: none !important;
+   
+}
+
+.webauth>div {
+   border-radius: 10px;
+}
+
 .form-group input {
    color: var(--text-light) !important;
    border-color: var(--blue) !important;
