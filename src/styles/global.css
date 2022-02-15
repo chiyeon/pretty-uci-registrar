@@ -50,7 +50,8 @@ a {
 #audience_nav_background a,
 #audience_nav_background td {
    color: var(--text-dark) !important;
-   background-color: transparent !important; /* get rid of hover background */
+   background-color: transparent !important;
+   /* get rid of hover background */
 }
 
 /* warning at top of page, date & contact links */
@@ -66,6 +67,7 @@ body > p a,
 #contact-footer a {
    color: var(--blue) !important;
 }
+
 /* footer */
 #contact-footer {
    background-color: var(--background-secondary) !important;

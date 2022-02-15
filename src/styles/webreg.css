@@ -10,6 +10,7 @@ center input {
    color: var(--text-light) !important;
    background-color: var(--background-secondary) !important;
 }
+
 center input[type="submit"] {
    cursor: pointer;
 }
@@ -42,6 +43,7 @@ h2,
 .DivLogoutMsg h2  {
    color: var(--blue) !important;
 }
+
 .WebRegTitle font {
    color: var(--text-light) !important;
 }
@@ -50,20 +52,25 @@ h2,
 table[bgcolor="#ddeeff"] td {
    background-color: var(--background-tertiary) !important;
 }
+
 table[bgcolor="#ddeeff"] tbody tr:first-child td {
    background-color: var(--background-secondary) !important;
 }
+
 /* round upper corners */
 table[bgcolor="#ddeeff"] tbody tr:first-child td:first-child {
    border-radius: 10px 0 0 0;
 }
+
 table[bgcolor="#ddeeff"] tbody tr:first-child td:last-child {
    border-radius: 0 10px 0 0;
 }
+
 /* round lower corners */
 table[bgcolor="#ddeeff"] tbody tr:last-child td:first-child {
    border-radius: 0 0 0 10px;
 }
+
 table[bgcolor="#ddeeff"] tbody tr:last-child td:last-child {
    border-radius: 0 0 10px 0;
 }
@@ -91,9 +98,11 @@ table[bgcolor="#ddeeff"] tbody tr:last-child td:last-child {
    background-color: var(--background-secondary) !important;
    margin-top: 10px !important;
 }
+
 #webreg-login-box h3 {
    background-color: transparent !important;
 }
+
 #webreg-login-box input {
    background-color: var(--background-tertiary) !important;
 }

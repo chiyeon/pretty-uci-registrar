@@ -12,6 +12,7 @@ table {
 
    border: none !important;
 }
+
 /* remove excess backgrounds, causes pixel edges */
 .course-list tr {
    background-color: transparent;
@@ -39,23 +40,27 @@ table {
 tr[bgcolor="#fff0ff"] td {
    background-color: var(--background-secondary) !important;
 }
+
 tr[bgcolor="#fff0ff"] td.CourseTitle {
    border-radius: 10px 10px 0 0;
    padding: 8px !important;
 }
 
 /* alternating class listings */
-tr[bgcolor="#FFFFCC"][valign="top"] > td {
+tr[bgcolor="#FFFFCC"][valign="top"]>td {
    background-color: var(--background-secondary) !important;
 }
-tr[bgcolor="#FFFFCC"][valign="top"] > td:first-child {
+
+tr[bgcolor="#FFFFCC"][valign="top"]>td:first-child {
    border-radius: 10px 0 0 10px;
 }
-tr[bgcolor="#FFFFCC"][valign="top"] > td:last-child {
+
+tr[bgcolor="#FFFFCC"][valign="top"]>td:last-child {
    border-radius: 0 10px 10px 0;
 }
+
 /* when the next tr is a course comment, color the comment */
-tr[bgcolor="#FFFFCC"][valign="top"] + tr[bgcolor="#FFFFCC"] td.Pct100 td {
+tr[bgcolor="#FFFFCC"][valign="top"]+tr[bgcolor="#FFFFCC"] td.Pct100 td {
    background-color: var(--background-secondary) !important;
 }
 
@@ -64,9 +69,11 @@ tr[bgcolor="#E7E7E7"] th {
    color: var(--text-light) !important;
    background-color: var(--background-tertiary) !important;
 }
+
 tr[bgcolor="#E7E7E7"] th:first-child {
    border-radius: 0 0 0 10px;
 }
+
 tr[bgcolor="#E7E7E7"] th:last-child {
    border-radius: 0 0 10px 0;
 }
@@ -80,7 +87,7 @@ tr[bgcolor="#E7E7E7"] th:last-child {
    height: 10px !important;
 }
 
-/* special class comment */ 
+/* special class comment */
 .num-range-comment td {
    border-radius: 10px;
    background-color: var(--background-secondary) !important;
@@ -100,12 +107,14 @@ div[style="color: red; font-weight: bold;"] {
 td.Pct100 {
    padding: 0 0 10px 0 !important;
 }
-.Pct100 > table {
+
+.Pct100>table {
    width: auto !important;
    border-width: 0px !important;
    background-color: transparent;
    padding: 0 !important;
 }
+
 .Pct100 td {
    border: none !important;
    border-radius: 0 0 10px 10px;
