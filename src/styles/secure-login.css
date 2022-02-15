@@ -1,0 +1,32 @@
+body,
+.webauth-login {
+   background-color: var(--background-primary) !important;
+}
+.alert {
+   border-color: var(--gold) !important;
+   color: var(--text-light) !important;
+   background-color: var(--background-tertiary) !important;
+}
+
+#logout-button-div input {
+   background-color: var(--blue) !important;
+}
+
+.webauth,
+.form-group input,
+.moving-placeholder::before {
+   background-color: var(--background-secondary) !important;
+}
+
+.form-group input {
+   color: var(--text-light) !important;
+   border-color: var(--blue) !important;
+}
+
+.moving-placeholder::before {
+   color: var(--blue) !important;
+}
+
+.btn {
+   background-color: var(--gold) !important;
+}

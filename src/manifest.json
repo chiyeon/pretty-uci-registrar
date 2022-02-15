@@ -48,6 +48,16 @@
             "styles/global.css",
             "styles/webreg-home.css"
          ]
+      },
+      {
+         "matches": [
+            "https://login.uci.edu/ucinetid/*",
+            "https://login.uci.edu/duo/*"
+         ],
+         "css": [
+            "styles/global.css",
+            "styles/secure-login.css"
+         ]
       }
    ]
 }
