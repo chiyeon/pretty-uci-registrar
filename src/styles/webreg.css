@@ -36,7 +36,10 @@ table tbody {
 }
 
 .WebRegTitle,
-.WebRegSubtitle, h2 {
+.WebRegSubtitle, 
+h2,
+.WebRegInfoMsg,
+.DivLogoutMsg h2  {
    color: var(--blue) !important;
 }
 .WebRegTitle font {
