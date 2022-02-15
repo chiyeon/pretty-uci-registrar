@@ -45,6 +45,23 @@ td[width="206"] {
    color: var(--text-light) !important;
 }
 
+/* nav sub menus */
+.menu ul,
+.submenu ul {
+   background-color: var(--background-secondary) !important;
+   border: none !important;
+   border-radius: 10px;
+   margin-left: 30px !important;
+}
+/* each element of the submenu */
+.submenu,
+.submenu li, 
+.submenu a,
+.menu ul li,
+.menu ul li a:hover {
+   background: none !important;
+}
+
 /* access webreg button */
 .box {
    background-color: var(--gold) !important;
