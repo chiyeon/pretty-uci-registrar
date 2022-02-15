@@ -39,8 +39,8 @@ a {
 
 /* make them underline on hover if not already */
 a:hover {
-   text-decoration: underline;
-   cursor: pointer;
+   text-decoration: underline !important;
+   cursor: pointer !important;
 }
 
 /* navigation bar */
@@ -49,6 +49,7 @@ a:hover {
    margin-top: 10px !important;
    border-radius: 300px;
    background-color: var(--gold) !important;
+   padding: 0 !important;
 }
 #reg-nav-bar a,
 #reg-nav-bar td,
@@ -56,8 +57,10 @@ a:hover {
 #audience_nav_background td {
    color: var(--text-dark) !important;
    background-color: transparent !important;
+}
+#reg-nav-bar td,
+#audience_nav_background td {
    padding: 3px !important;
-   /* get rid of hover background */
 }
 
 /* warning at top of page, date & contact links */

@@ -52,10 +52,14 @@ table input {
    /* styling the reset button */
    text-decoration: none;
 
-   cursor: pointer;
-
    /* really only for .banner-width buttons */
    transition: .3s opacity;
+}
+
+/* cursor for buttons & dropdowns */
+input[type="submit"],
+select {
+   cursor: pointer !important;
 }
 
 /* make da first button pretty ! */
