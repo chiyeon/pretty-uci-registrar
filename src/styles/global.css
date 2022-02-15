@@ -6,12 +6,15 @@
    --background-tertiary: #535353;
    --text-dark: #1f1f1f;
    --text-light: #dfdfdf;
+   --text-secondary: #afafaf;
    --status-green: #94BD96;
    --status-red: #C84848;
    --status-blue: #6B8BFF;
    --status-yellow: #FFD65C;
    --gold: #ffde69;
    --blue: #4670ab;
+   --color-purple: #c969e6;
+   --color-orange: #fa8e35;
    --font-size-main: 13px;
 }
 
