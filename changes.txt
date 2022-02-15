@@ -4,6 +4,9 @@
 - fixed navigation bar being incorrectly scaled
 - fixed strange looking highlights on hovering certain links
 - fixed incorrect cursor on textboxes
+- added color changes on hover for pages
+  - class search page
+  - web registration page
 - added rounded corners to the duo authentication window
 - added underline on hover for links
 - added cursor change when hovering over buttons for prereqs & class search pages

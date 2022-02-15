@@ -11,8 +11,14 @@ center input {
    background-color: var(--background-secondary) !important;
 }
 
-center input[type="submit"] {
+input[type="submit"] {
    cursor: pointer;
+
+   transition: background-color .1s;
+}
+
+input[type="submit"]:hover {
+   background-color: var(--background-secondary-hover) !important;
 }
 
 table {

@@ -66,6 +66,12 @@ select {
 .banner-width>input:first-child {
    background-color: var(--gold) !important;
    color: var(--text-dark) !important;
+
+   transition: background-color .1s;
+}
+
+.banner-width>input:first-child:hover {
+   background-color: var(--gold-hover) !important;
 }
 
 select,
@@ -74,6 +80,14 @@ table input,
 .banner-width>input {
    background-color: var(--background-secondary) !important;
    color: var(--text-light) !important;
+
+   transition: background-color .1s;
+}
+
+select:hover,
+table input:hover,
+.banner-width>input:hover {
+   background-color: var(--background-secondary-hover) !important;
 }
 
 /* correct coloring for drop down options */
