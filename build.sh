@@ -8,7 +8,7 @@ fi
 
 VERSION=$1
 
-echo "Pretty UCI Registrar Build ver. ${VERSION}"
+echo "Building Pretty UCI Registrar v${VERSION}"
 echo "====================================="
 echo
 echo "Creating temporary directory & copying source..."
@@ -21,11 +21,11 @@ cp -r ./src/* ./temp/firefox
 cp -r ./src/* ./temp/chrome
 
 echo 
-echo "Adjusting manifest version and PUR version for firefox..."
+echo "Adjusting manifest version and PUR version for Firefox..."
 node -p "JSON.stringify({...require('./temp/firefox/manifest.json'), manifest_version: 2, version: '$VERSION'}, null, 2)" > ./temp/firefox/new_manifest.json
 mv ./temp/firefox/new_manifest.json ./temp/firefox/manifest.json
 
-echo "Adjusting manifest version and PUR version for chrome..."
+echo "Adjusting manifest version and PUR version for Chrome..."
 node -p "JSON.stringify({...require('./temp/chrome/manifest.json'), manifest_version: 3, version: '$VERSION'}, null, 2)" > ./temp/chrome/new_manifest.json
 mv ./temp/chrome/new_manifest.json ./temp/chrome/manifest.json
 
@@ -35,12 +35,12 @@ echo "Creating release directory..."
 mkdir releases/$VERSION
 
 echo
-echo "Creating firefox release..."
+echo "Creating Firefox release..."
 cd ./temp/firefox/
 zip -r "../../releases/$VERSION/pur_${VERSION}_firefox.zip" ./*
 cd ../..
 
-echo "Creating chrome release..."
+echo "Creating Chrome release..."
 cd ./temp/chrome/
 zip -r "../../releases/$VERSION/pur_${VERSION}_chrome.zip" ./*
 cd ../..
