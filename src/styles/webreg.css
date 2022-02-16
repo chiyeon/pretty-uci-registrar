@@ -89,6 +89,12 @@ table[bgcolor="#ddeeff"] tbody tr:last-child td:last-child {
    color: var(--status-red) !important;
 }
 
+/* special error message */
+b[style="text-align: center;color: #ff0000;font-size: 18px"] {
+   color: var(--status-red) !important;
+   margin-top: 10px;
+}
+
 /* info box */
 .WebRegInfoMsg {
    border: none !important;
