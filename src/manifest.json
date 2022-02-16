@@ -59,5 +59,28 @@
             "styles/secure-login.css"
          ]
       }
-   ]
+   ],
+   "web_accessible_resources": [
+      {
+         "resources": [
+            "styles/global.css",
+            "styles/prereqs.css",
+            "styles/search-form.css",
+            "styles/search-results.css",
+            "styles/secure-login.css",
+            "styles/webreg-home.css",
+            "styles/webreg-home.css"
+         ],
+         "matches": [
+            "*://login.uci.edu/*"
+         ]
+      }
+   ],
+   "permissions": [
+      "storage"
+   ],
+   "action": {
+      "default_title": "Pretty UCI Registrar Options",
+      "default_popup": "popup.html"
+   }
 }
