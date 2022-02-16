@@ -52,8 +52,6 @@ table input {
    /* styling the reset button */
    text-decoration: none;
 
-   /* really only for .banner-width buttons */
-   transition: .3s opacity;
 }
 
 /* cursor for buttons & dropdowns */
@@ -66,8 +64,6 @@ select {
 .banner-width>input:first-child {
    background-color: var(--gold) !important;
    color: var(--text-dark) !important;
-
-   transition: background-color .1s;
 }
 
 .banner-width>input:first-child:hover {
@@ -80,8 +76,6 @@ table input,
 .banner-width>input {
    background-color: var(--background-secondary) !important;
    color: var(--text-light) !important;
-
-   transition: background-color .1s;
 }
 
 select:hover,
