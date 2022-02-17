@@ -8,6 +8,8 @@ fi
 
 VERSION=$1
 
+APP_NAME="Pretty UCI Registrar"
+
 ACCESSIBLE_RESOURCES='"styles/global.css", "styles/prereqs.css", "styles/search-form.css", "styles/search-results.css", "styles/secure-login.css", "styles/webreg-home.css", "styles/webreg-home.css"'
 ACCESSIBLE_RESOURCES_URL="*://login.uci.edu/*"
 
@@ -28,11 +30,11 @@ cp -r ./src/* ./temp/chrome
 
 echo
 echo "Adjusting manifest version and PUR version for Firefox..."
-node -p "JSON.stringify({...require('./temp/firefox/manifest.json'), manifest_version: 2, version: '$VERSION', page_action: { default_title: '$POPUP_TITLE', default_popup: '$POPUP_SRC' }, web_accessible_resources: [ $ACCESSIBLE_RESOURCES ]}, null, 2)" > ./temp/firefox/new_manifest.json
+node -p "JSON.stringify({...require('./temp/firefox/manifest.json'), name: '$APP_NAME', manifest_version: 2, version: '$VERSION', browser_action: { default_title: '$POPUP_TITLE', default_popup: '$POPUP_SRC' }, web_accessible_resources: [ $ACCESSIBLE_RESOURCES ]}, null, 2)" > ./temp/firefox/new_manifest.json
 mv ./temp/firefox/new_manifest.json ./temp/firefox/manifest.json
 
 echo "Adjusting manifest version and PUR version for Chrome..."
-node -p "JSON.stringify({...require('./temp/chrome/manifest.json'), manifest_version: 3, version: '$VERSION', action: { default_title: '$POPUP_TITLE', default_popup: '$POPUP_SRC' }, web_accessible_resources: [ { resources: [ $ACCESSIBLE_RESOURCES ], matches: [ '$ACCESSIBLE_RESOURCES_URL' ] } ]}, null, 2)" > ./temp/chrome/new_manifest.json
+node -p "JSON.stringify({...require('./temp/chrome/manifest.json'), name: '$APP_NAME', manifest_version: 3, version: '$VERSION', action: { default_title: '$POPUP_TITLE', default_popup: '$POPUP_SRC' }, web_accessible_resources: [ { resources: [ $ACCESSIBLE_RESOURCES ], matches: [ '$ACCESSIBLE_RESOURCES_URL' ] } ]}, null, 2)" > ./temp/chrome/new_manifest.json
 mv ./temp/chrome/new_manifest.json ./temp/chrome/manifest.json
 
 echo
