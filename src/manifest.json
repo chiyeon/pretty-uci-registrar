@@ -1,7 +1,7 @@
 {
    "manifest_version": 3,
-   "name": "Pretty UCI Registrar",
-   "version": "0.0.2",
+   "name": "[DEBUG] Pretty UCI Registrar",
+   "version": "0.0.1",
    "description": "A visual revamp of the UCI Class Schedule and WebReg pages",
    "author": "Benjamin Wong",
    "content_scripts": [
@@ -60,6 +60,9 @@
          ]
       }
    ],
+   "permissions": [
+      "storage"
+   ],
    "web_accessible_resources": [
       {
          "resources": [
@@ -75,12 +78,5 @@
             "*://login.uci.edu/*"
          ]
       }
-   ],
-   "permissions": [
-      "storage"
-   ],
-   "action": {
-      "default_title": "Pretty UCI Registrar Options",
-      "default_popup": "popup.html"
-   }
+   ]
 }

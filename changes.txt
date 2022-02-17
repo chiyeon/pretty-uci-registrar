@@ -10,9 +10,11 @@
 - added rounded corners to the duo authentication window
 - added underline on hover for links
 - added cursor change when hovering over buttons for prereqs & class search pages
+- adjusted build script to include new manifest inclusions
+  - unfortunately the base manifest does NOT include the pages popup until the build script can be fixed
 
 Thank you @waymondrang for the following changes!
 - added custom logger
-- adjusted build script
-- adjusted manifest in preperation for JS injected CSS
-- added popup framework
+- adjusted wording of build script
+- adjusted manifest in preparation for JS injected CSS
+- added minimal popup
