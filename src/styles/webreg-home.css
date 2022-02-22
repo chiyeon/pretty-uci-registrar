@@ -1,7 +1,11 @@
 /* home page with the access webreg button */
 
 /* entire page */
-table[width="45%"] {
+table[width="45%"],
+#page,
+#pageContent,
+.bborder2,
+.serviceDescription {
    background-color: var(--background-primary) !important;
 }
 
@@ -46,7 +50,18 @@ td[width="206"] {
    border-radius: 3px;
 }
 
-.menu a {
+/* student access nav bar buttons */
+#pageMenu {
+   background-color: var(--background-primary) !important;
+   border: none !important;
+}
+/* remove border to the right of nav bar */
+#pageContent {
+   border: none !important;
+}
+
+.menu a,
+#pageMenu a {
    color: var(--text-light) !important;
 }
 
@@ -63,13 +78,25 @@ td[width="206"] {
    border-radius: 10px;
    margin-left: 30px !important;
 }
+
+/* student access nav sub menu */
+#pageMenu ul {
+   background-color: var(--blue) !important;
+   border: none !important;
+   border-radius: 10px;
+   margin-left: 30px !important;
+}
+
 /* each element of the submenu */
 .submenu,
 .submenu li, 
 .submenu a,
 .menu ul li,
-.menu ul li a:hover {
+.menu ul li a:hover,
+#pageMenu ul li,
+#pageMenu ul li a:hover {
    background: none !important;
+   border: none !important;
 }
 
 /* access webreg button */
@@ -82,6 +109,11 @@ td[width="206"] {
 .boxbottom,
 .boxbottom div {
    background: none !important;
+}
+
+/* text inside gold box */
+.boxcontent strong {
+   color: var(--text-dark) !important;
 }
 
 /* footer image */

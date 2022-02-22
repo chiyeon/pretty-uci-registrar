@@ -40,10 +40,7 @@
       },
       {
          "matches": [
-            "https://www.reg.uci.edu/registrar/soc/webreg.html",
-            "https://www.reg.uci.edu/addl/accellion_notice.html",
-            "https://www.reg.uci.edu/addl/faq_covid.html",
-            "https://www.reg.uci.edu/catalogue/*"
+            "*://*.reg.uci.edu/*"
          ],
          "css": [
             "styles/global.css",
@@ -79,5 +76,10 @@
             "*://login.uci.edu/*"
          ]
       }
-   ]
+   ],
+   "icons": {
+      "16": "assets/pur_16.png",
+      "48": "assets/pur_48.png",
+      "128": "assets/pur_128.png"
+   }
 }
