@@ -1,20 +1,4 @@
-- fixed incorrectly colored dropdown options
-- fixed text input boxes showing incorrect color on firefox
-- fixed dropdown arrows showing white backgrounds in the covid-19 faq
-- fixed navigation bar being incorrectly scaled
-- fixed strange looking highlights on hovering certain links
-- fixed incorrect cursor on textboxes
-- added color changes on hover for pages
-  - class search page
-  - web registration page
-- added rounded corners to the duo authentication window
-- added underline on hover for links
-- added cursor change when hovering over buttons for prereqs & class search pages
-- adjusted build script to include new manifest inclusions
-  - unfortunately the base manifest does NOT include the pages popup until the build script can be fixed
-
-Thank you @waymondrang for the following changes!
-- added custom logger
-- adjusted wording of build script
-- adjusted manifest in preparation for JS injected CSS
-- added minimal popup
+- added support for most of the web registration website
+  - that is, any URL beginning with `https://www.reg.uci.edu/`
+  - this support is NOT comprehensive as of yet ! There may be issues on some pages.
+- fixed bug where autofilled uci oath would have a white background
