@@ -13,10 +13,12 @@ body,
 }
 
 .webauth,
-.form-group input,
-.form-group textarea,
-.form-group select,
-.moving-placeholder::before {
+.moving-placeholder::before,
+.login-input,
+.login-input textarea,
+.login-input select,
+.is-autofilled {
+   transition: none !important;
    background-color: var(--background-secondary) !important;
 }
 
