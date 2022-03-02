@@ -40,6 +40,13 @@ table tbody {
    border-color: var(--text-light) !important;
 }
 
+/* study/wait list of classes */
+.studyList td,
+.studyList p,
+.studyList p u {
+   font-family: 'Courier New', Courier, monospace !important;
+}
+
 .WebRegTitle,
 .WebRegSubtitle, 
 h2,

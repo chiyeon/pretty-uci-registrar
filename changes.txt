@@ -2,3 +2,4 @@
   - that is, any URL beginning with `https://www.reg.uci.edu/`
   - this support is NOT comprehensive as of yet ! There may be issues on some pages.
 - fixed bug where autofilled uci oath would have a white background
+- added monospace font for the classes study / wait list for clarity
