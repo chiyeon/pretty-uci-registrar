@@ -38,6 +38,7 @@ table {
 /* tbody of add/drop menus */
 table tbody {
    border-color: var(--text-light) !important;
+   border-radius: 10px !important;
 }
 
 /* study/wait list of classes */
